@@ -256,10 +256,12 @@ input, select, textarea {
 
 /* Container */
 
+/* !!! To adjust width of container, also change #header .container { margin-left } to half of width below */
+
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
-		width: 35em;
+		width: 50em;
 	}
 
 		.container.xsmall {
@@ -2840,7 +2842,7 @@ input, select, textarea {
 			background: rgba(255, 255, 255, 0.95);
 			bottom: 0;
 			left: 50%;
-			margin-left: -17.5em;
+			margin-left: -25em;
 			padding: 2.5em;
 			position: absolute;
 		}
