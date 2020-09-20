@@ -1,5 +1,9 @@
-# Ignore data folder
+# Ignore data & visualization folders
 data/
+viz/
 
 # Ignore notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore webpage images
+webpage/images/
