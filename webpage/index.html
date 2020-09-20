@@ -22,51 +22,142 @@
             </header>
             <div class="container">
                 <ul class="actions special">
-                    <li><a href="#one" class="button primary scrolly">Learn More</a></li>
+                    <li><a href="#problem" class="button primary scrolly">Learn More</a></li>
                 </ul>
             </div>
         </section>
 
-        <section id="one" class="main special">
+        <section id="problem" class="main special">
             <div class="container">
-                <span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
                 <div class="content">
                     <header class="major">
                         <h2>The problem</h2>
                     </header>
-                    <p>In Connecticut state correctional facilities, Black people always make up the largest proportion of the pre-trial inmate population. In 2016, White people made up the next largest proportion, but by 2020 White and Latinx people were incarcerated in roughly equal numbers.</p>
-                    <img src='images/inmate_population.png' width=100%>
+                    <p>Pre-trial risk assessment algorithms are increasingly being used to make pre-trial decisions, such as setting the amount of an accused person’s bond.</p>
+                    <p>However, there is a concern that the data on which these algorithms are trained may be biased, due to the association between many risk factors and systemic social and economic inequities.</p>
+                    <p>But how can we be sure, when we are unable to inspect the risk assessment algorithms themselves?</p>
                 </div>
-                <a href="#two" class="goto-next scrolly">Next</a>
+                <a href="#case" class="goto-next scrolly">Next</a>
             </div>
         </section>
 
-        <section id="two" class="main special">
+        <section id="case" class="main special">
             <div class="container">
-                <span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span>
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
                 <div class="content">
                     <header class="major">
-                        <h2>Learn more</h2>
+                        <h2>The case</h2>
                     </header>
-                    <p>Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate.</p>
+                    <p>The state of Connecticut has been using a pre-trial risk assessment algorithms since 2003. The instrument was revalidated in 2015.</p>
+                    <p>The state of Connecticut has also, since July 2016, made available data on its pre-trial inmates – all individuals being held overnight in its correctional facilities while awaiting trial.</p>
+                    <p>We do not know everything about these inmates that their risk assessment algorithm did. But we do know the amount of their bond, the numbers of days they were detained awaiting trial, and the offense for which they were arrested. We also know their race.</p>
+                    <p>Our goal is to use the data we do have to study the impacts of Connecticut’s pre-trial risk assessment algorithm – in particular, any racial disparities in those impacts.</p>
                 </div>
-                <a href="#three" class="goto-next scrolly">Next</a>
+                <a href="#demographics" class="goto-next scrolly">Next</a>
+            </div>
+        </section>        
+
+        <section id="demographics" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>Overall racial demographics</h2>
+                    </header>
+                    <p>Since 2016, Black people have always made up the largest number and proportion of pre-trial inmates In Connecticut state correctional facilities. In 2016, White people made up the next largest number, but by 2020 White and Latinx people were incarcerated in roughly equal numbers.</p>
+                    <img src='images/inmate_population.gif' width=100%>
+                </div>
+                <a href="#connecticut" class="goto-next scrolly">Next</a>
+            </div>
+        </section>        
+        
+        <section id="connecticut" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>But is this any different from Connecticut’s racial demographics?</h2>
+                    </header>
+                    <p>Yes. C’mon. This is <i>Connecticut</i>. The overwhelming majority of the state's population is White. Yet the overwhelming majority of its pre-trial inmate population are people of colour.</p>
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Race</th>
+                                    <th>Connecticut population</th>
+                                    <th>Pre-trial inmate population</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>White</td>
+                                    <td>71.2 %</td>
+                                    <td>31.6 %</td>
+                                </tr>
+                                <tr>
+                                    <td>Black</td>
+                                    <td>10.1 %</td>
+                                    <td>40.9 %</td>
+                                </tr>
+                                <tr>
+                                    <td>Latinx</td>
+                                    <td>6.4 %</td>
+                                    <td>26.6 %</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p>*State population numbers come from the 2010 Census.</p>
+                </div>
+                <a href="#bonds" class="goto-next scrolly">Next</a>
             </div>
         </section>
 
-        <section id="three" class="main special">
+        <section id="bonds" class="main special">
             <div class="container">
-                <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
                 <div class="content">
                     <header class="major">
-                        <h2>What you can do</h2>
+                        <h2>Racial differences in bond amounts</h2>
                     </header>
-                    <p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
+                    <p>It’s not only that inmates of colour are disproportionately represented in the pre-trial inmate population. Inmates of colour also tend to be assigned higher bond amounts than White inmates.</p>
+                    <img src='images/bond_by_race.png' width=100%>
+                    <p>*The above chart shows the median bond amount for White inmates and inmates of colour. The vertical bars indicate the 95% confidence interval of our estimate of the median. In other words, we can be 95% confident that the true median lies somewhere in the range indicated by this bar.</p>
+                </div>
+                <a href="#offenses" class="goto-next scrolly">Next</a>
+            </div>
+        </section> 
+        
+        <section id="offenses" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>But is this because inmates of colour tend to be arrested for different, more serious offenses?</h2>
+                    </header>
+                    <p>No. Even if we keep the specific offense fixed, the median bond amount for inmates of colour is nearly always significantly higher than for White inmates.</p>
+                    <img src='images/bond_by_offense.png' width=100%>
+                </div>
+                <a href="#repeats" class="goto-next scrolly">Next</a>
+            </div>
+        </section> 
+
+        <section id="repeats" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>But is this because inmates of colour tend to be repeat offenders?</h2>
+                    </header>
+                    <p>No. The relative proportions of first-time and repeat offenders are near identical between White inmates and inmates of colour, and the difference in their median bond amounts has nothing to do with whether they have been arrested for a repeat offense.</p>
+                    <img src='images/bond_by_repeat.png' width=100%>
+                    <p>As this plot illustrates, while White inmates tend to be assigned higher bond amounts for a repeat offense, inmates of colour tend to be assigned the same, much higher bond amount, regardless if it was a first-time or a repeat offense.</p>
                 </div>
                 <a href="#footer" class="goto-next scrolly">Next</a>
             </div>
-        </section>
-
+        </section> 
+        
         <section id="footer">
             <div class="container">
                 <header class="major">
