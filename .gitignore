@@ -1,0 +1,5 @@
+# Ignore data folder
+data/
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
