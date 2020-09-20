@@ -1,5 +1,6 @@
-# Ignore data & visualization folders
+# Ignore data, docs, & visualization folders
 data/
+docs/
 viz/
 
 # Ignore notebook checkpoints
