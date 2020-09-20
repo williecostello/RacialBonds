@@ -2933,11 +2933,15 @@ input, select, textarea {
 			}
 
 		/* Main */
+        
+            /*
 
 			.main .image.primary {
 				display: block;
 				margin: 0 0 4em 0;
 			}
+        
+            */
 
 			.main .container {
 				padding: 3em 3em 8em 3em ;
