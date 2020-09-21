@@ -69,21 +69,36 @@
                     <p>However, there is a concern that <b>the data that these algorithms are trained on may be biased</b>, due to the association between many risk factors and systemic social and economic inequities.</p>
                     <p><b>But how can we know, when we are unable to inspect the algorithms themselves?</b></p>
                 </div>
-                <a href="#case" class="goto-next scrolly">Next</a>
+                <a href="#goal" class="goto-next scrolly">Next</a>
             </div>
         </section>
 
+        <section id="goal" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>The goal</h2>
+                    </header>
+                    <p>Our goal with this webpage is to study the impacts of pre-trial risk assessment algorithms <b>indirectly, by investigating the racial disparities in the pre-trial inmate population</b>.</p>
+                    <p>The purpose of this webpage is educational: We aim to raise general awareness of these issues.</p>
+                    <p>We do not claim that the results of our statistical analysis are conclusive. But they should make us ask more questions, and demand more answers about the use of pre-trial risk assessment algorithms throughout the country.</p>
+                </div>
+                <a href="#case" class="goto-next scrolly">Next</a>
+            </div>
+        </section>        
+        
         <section id="case" class="main special">
             <div class="container">
                 <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
                 <div class="content">
                     <header class="major">
-                        <h2>The case</h2>
+                        <h2>The case study</h2>
                     </header>
                     <p>The state of Connecticut has been using a pre-trial risk assessment algorithms since 2003. The algorithm was revalidated in 2015.</p>
                     <p>The state of Connecticut has also, since July 2016, made available data on all its pre-trial inmates – all individuals being held overnight in its correctional facilities while awaiting trial.</p>
-                    <p>We do not know everything about these inmates that their risk assessment algorithm did. But we do know the amount of their bond, the numbers of days they were detained awaiting trial, and the offense for which they were arrested. We also know their race.</p>
-                    <p><b>Our goal is to use the data that we have to study the impacts of Connecticut’s pre-trial risk assessment algorithm – and in particular, any racial disparities in those impacts.</b></p>
+                    <p>We do not know everything about these inmates that their risk assessment algorithm did. But we do know the amount of their bond, the numbers of days they were detained awaiting trial, and the offense for which they were arrested.</p>
+                    <p>We also know their race.</p>
                 </div>
                 <a href="#demographics" class="goto-next scrolly">Next</a>
             </div>
@@ -150,7 +165,7 @@
                 <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
                 <div class="content">
                     <header class="major">
-                        <h2>Racial differences in bond amounts</h2>
+                        <h2>Racial disparities in bond amounts</h2>
                     </header>
                     <p>It’s not only that inmates of colour are disproportionately represented in the pre-trial inmate population. Inmates of colour also tend to be assigned higher bond amounts than White inmates.</p>
                     <img src='images/bond_by_race.png' width=100%>
@@ -167,9 +182,9 @@
                     <header class="major">
                         <h2>But is this because inmates of colour tend to be arrested for different, more serious offenses?</h2>
                     </header>
-                    <p>No. Even if we keep the specific offense fixed, the median bond amount for inmates of colour is nearly always significantly higher than for White inmates.</p>
-                    <img src='images/bond_by_offense.png' width=100%>
-                    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="viz/MaleInmatesBail.html" height="525" width="100%"></iframe>
+                    <p>No. Even if we keep the specific offense fixed, the median bond amount for inmates of colour is often significantly higher than for White inmates.</p>
+                    <iframe id="allinmates" scrolling="no" style="border:none;" seamless="seamless" src="viz/InmatesBail.html" height="575" width="100%"></iframe>
+                    <p>(This chart highlights the offenses that discriminate the most severely overall. This pattern is not, however, limited to these offenses. Of the 40 most frequently occurring offenses, the median bond amount was higher for inmates of colour in 31 of them, or 78%.)</p>
                 </div>
                 <a href="#repeats" class="goto-next scrolly">Next</a>
             </div>
@@ -186,10 +201,28 @@
                     <img src='images/bond_by_repeat.png' width=100%>
                     <p>As this plot illustrates, while White inmates tend to be assigned higher bond amounts for a repeat offense, inmates of colour tend to be assigned the same, much higher bond amount, regardless if it was a first-time or a repeat offense.</p>
                 </div>
-                <a href="#ctprai" class="goto-next scrolly">Next</a>
+                <a href="#gender" class="goto-next scrolly">Next</a>
             </div>
         </section> 
 
+        <section id="gender" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>Is gender an issue?</h2>
+                    </header>
+                    <p>Yes and no. For male inmates of colour the situation looks the same: Their median bond amounts are higher in 60% of offense types, and their maximum bond amount is higher in 56%. Here are some of the offenses for which male inmates of colour are discriminated against:</p>
+                    <iframe id="maleinmates" scrolling="no" style="border:none;" seamless="seamless" src="viz/MaleInmatesBail.html" height="575" width="100%"></iframe>
+                    <p>The situation for women of colour looks a little better. The minimum bond amounts are usually lower for female inmates of colour, and the median and maximum bond amounts are usually comparable to what White female inmates are assigned. Still, there are some offenses where female inmates of colour are discriminated against:</p>
+                    <iframe id="femaleinmates" scrolling="no" style="border:none;" seamless="seamless" src="viz/FemaleInmatesBail.html" height="575" width="100%"></iframe>
+                </div>
+                <a href="#ctprai" class="goto-next scrolly">Next</a>
+            </div>
+        </section>         
+        
+        
+        
         <section id="ctprai" class="main special">
             <div class="container">
                 <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
