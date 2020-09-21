@@ -22,8 +22,39 @@
             </header>
             <div class="container">
                 <ul class="actions special">
-                    <li><a href="#problem" class="button primary scrolly">Learn More</a></li>
+                    <li><a href="#introduction" class="button primary scrolly">Learn More</a></li>
                 </ul>
+            </div>
+        </section>
+
+        <section id="introduction" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>The issue</h2>
+                    </header>
+                    <p>In the United States, approximately <b>1.6 million individuals are being held in federal and state prisons</b>.</p>
+                    <p>In 2015, of the more than 700,000 individuals detained in local jails, <b>63% were unconvicted and awaiting trial</b> – also known as pre-trial detention. <a href='https://www.bjs.gov/content/pub/pdf/ji15.pdf'>[1]</a></p>
+                    <p>The cost of detaining so many individuals is <b>over $80 billion</b> – just to operate the jails and prisons. <a href='https://www.prisonpolicy.org/reports/money.html'>[2]</a></p>
+                    <p>Moreover, <b>persons of color make up nearly 70% of individuals in pre-trial detention</b>, despite representing only a 25% of the United States population.</p>
+                </div>
+                <a href="#pra" class="goto-next scrolly">Next</a>
+            </div>
+        </section>
+
+        <section id="pra" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>Pre-trial risk assessment</h2>
+                    </header>
+                    <p>There are various systemic factors contributing to this issue. Here we will be exploring one in particular – <b>the use of algorithms and data via pre-trial risk assessment instruments</b>, or PRAIs.</p>
+                    <p>PRAIs are intended to standardize pre-trial decision-making by providing information about or <b>“predicting” a defendant’s likelihood of re-offending or failing to appear in court</b>.</p>
+                    <p>PRAIs can be qualitative, quantitative, or a combination of the two. Jurisdictions using qualitative or combination instruments experience more jail overcrowding than those that do not, as pre-trial detention is disproportionately recommended. <a href='https://bja.ojp.gov/sites/g/files/xyckuh186/files/media/document/PretrialRiskAssessmentResearchSummary.pdf'>[3]</a></p>
+                </div>
+                <a href="#problem" class="goto-next scrolly">Next</a>
             </div>
         </section>
 
@@ -34,7 +65,7 @@
                     <header class="major">
                         <h2>The problem</h2>
                     </header>
-                    <p>Pre-trial risk assessment <b>algorithms are increasingly being used to make pre-trial decisions</b>, such as setting the amount of an accused person’s bond.</p>
+                    <p>PRAIs are not only used to predict a defendant's likelihood of re-offending. <b>These algorithms are increasingly being used to set the terms of the defendant's detention</b>, such as setting the amount of their bond.</p>
                     <p>However, there is a concern that <b>the data that these algorithms are trained on may be biased</b>, due to the association between many risk factors and systemic social and economic inequities.</p>
                     <p><b>But how can we know, when we are unable to inspect the algorithms themselves?</b></p>
                 </div>
@@ -138,6 +169,7 @@
                     </header>
                     <p>No. Even if we keep the specific offense fixed, the median bond amount for inmates of colour is nearly always significantly higher than for White inmates.</p>
                     <img src='images/bond_by_offense.png' width=100%>
+                    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="viz/MaleInmatesBail.html" height="525" width="100%"></iframe>
                 </div>
                 <a href="#repeats" class="goto-next scrolly">Next</a>
             </div>
@@ -150,13 +182,44 @@
                     <header class="major">
                         <h2>But is this because inmates of colour tend to be repeat offenders?</h2>
                     </header>
-                    <p>No. The relative proportions of first-time and repeat offenders are near identical between White inmates and inmates of colour, and the difference in their median bond amounts has nothing to do with whether they have been arrested for a repeat offense.</p>
+                    <p>No. The relative proportions of first-time and repeat offenders are nearly identical between White inmates and inmates of colour, and the difference in their median bond amounts has nothing to do with whether they have been arrested for a repeat offense.</p>
                     <img src='images/bond_by_repeat.png' width=100%>
                     <p>As this plot illustrates, while White inmates tend to be assigned higher bond amounts for a repeat offense, inmates of colour tend to be assigned the same, much higher bond amount, regardless if it was a first-time or a repeat offense.</p>
                 </div>
-                <a href="#getinvovled" class="goto-next scrolly">Next</a>
+                <a href="#ctprai" class="goto-next scrolly">Next</a>
             </div>
         </section> 
+
+        <section id="ctprai" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>So what does Connecticut know that we don’t?</h2>
+                    </header>
+                    <p>What explains these clear racial disparities? <b>Connecticut’s PRAI explicitly ignores the defendant’s race when making its risk assessments</b>. It does, however, consider other data about them.</p>
+                    <p>According to the state’s latest report, its PRAI makes its assessments based on the defendant’s current charge, criminal history, marital status, employment, education, substance abuse, mental health, and prior failure to appear in court.<a href='https://www.ct.gov/ctsc/lib/ctsc/Pretrial_Release_and_Detention_in_CT_2.14.2017.pdf'>[4]</a></p>
+                    <p>The question is: <b>Should the terms of a defendant’s pre-trial detention be determined by factors such as their employment, education, health, and living situation</b> – given the association between these factors and systemic social and economic inequities?</p>
+                    <p><b>Is this justice? Or is it perpetuating society’s existing inequities?</b></p>
+                </div>
+                <a href="#national" class="goto-next scrolly">Next</a>
+            </div>
+        </section>         
+        
+        <section id="national" class="main special">
+            <div class="container">
+                <span class="image fit primary"><img src="images/blm.jpg" alt="" /></span>
+                <div class="content">
+                    <header class="major">
+                        <h2>The national landscape</h2>
+                    </header>
+                    <p>Connecticut is not unique in its use of PRAIs. According to research done by <a href='https://pretrialrisk.com'>Mapping Pretrial Injustice</a>, <b>PRAIs "are in use all over the country, in at least one county in almost every state."</b></p>
+                    <img src='images/nationalprais.png' width=100%>
+                    <p><a href='https://pretrialrisk.com/national-landscape/where-are-prai-being-used/'>(Visualization courtesy of Mapping Pretrial Injustice)</a></p>
+                </div>
+                <a href="#getinvolved" class="goto-next scrolly">Next</a>
+            </div>
+        </section>         
         
         <section id="getinvolved" class="main special">
             <div class="container">
@@ -182,8 +245,9 @@
                 </header>
                 <p>Team members: <a href='https://www.linkedin.com/in/dariaaza/'>Daria Aza</a> | <a href='https://www.linkedin.com/in/williecostello'>Willie Costello</a> | Jasmine Moore</p>
                 <p>The dataset that our analysis is based on can be downloaded from <a href='https://data.ct.gov/Public-Safety/Accused-Pre-Trial-Inmates-in-Correctional-Faciliti/b674-jy6w'>Connecticut Open Data</a></p>
-                <p>The full details of our analysis are presented in notebooks available in our <a href='https://github.com/williecostello/RacialBonds'>Github repository</a></p>
+                <p>The full details of our analysis are presented in notebooks in our Github repositories: <a href='https://github.com/williecostello/RacialBonds'>(1)</a> <a href='https://github.com/DariaAza/DataEthics4AllHackathon'>(2)</a></p>
                 <p>An analysis of this dataset was also performed by Alex Albright, in August 2019. We were not aware of Alex's work while completing our analysis, but you should definitely <a href='https://thelittledataset.com/2019/08/12/ct-pretrial-descriptives/'>check it out</a>!</p>
+                <p>Research statistics provided by the <a href='https://bja.ojp.gov/'>Bureau of Justice Assistance</a>, the <a href='https://bjs.gov/'>Bureau of Justice Statistics</a>, and the <a href='https://www.prisonpolicy.org/'>Prison Policy Initiative</a>.</p>
                 <p>This webpage was made as part of the <a href='https://dataethics4all.org/ethics4nextgenai-hackathon/' target=_blank>2020 Ethics4NextGen AI Hackathon</a></p>
             </div>
             <div class="container">
