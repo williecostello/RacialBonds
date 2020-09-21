@@ -2,6 +2,7 @@
 data/
 docs/
 viz/
+app/
 
 # Ignore notebook checkpoints
 .ipynb_checkpoints/
